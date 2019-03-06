@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.container {
+	margin:0 auto; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    width: 100%;
+    max-width: 768px;
+    background-color: #efefef;
+}
+
+.fa {
+  padding: 13px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  position: relative;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: black;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.imgwrapper {
+    width: 50%;
+}
+.img-fluid {
+    max-width: 100%;
+}
+.img-heading2 {
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+.first-txt {    
+    background-color: white;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.second-txt {    
+    background-color: white;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img-p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+p.imp-p2 {
+    margin-top: -10px
+}
+
+.hyperlink {
+    color: orangered;
+    margin-left: 00px;
+    font-size: 20px;
+}
+
+.hyperlink2 {
+    color: orangered;    
+    font-size: 20px;
+    margin-top: -10px
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .col-s-1 {width: 100%;}
+  .col-s-2 {width: 100%;}
+  .col-s-3 {width: 100;}
+  .col-s-4 {width: 100%;}
+  .col-s-5 {width: 100%;}
+  .col-s-6 {width: 100;}
+  .col-s-7 {width: 100%;}
+  .col-s-8 {width: 100%;}
+  .col-s-9 {width: 100;}
+  .col-s-10 {width: 100%;}
+  .col-s-11 {width: 100%;}
+  .col-s-12 {width: 100}
+  
+.container {
+    width: 100%; 
+    padding: 0; 
+	margin-left: 0%;
+    background-color: #efefef;
+}
+
+body {
+    display: block;
+    margin: 0,auto;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  
+  .col-s-1 {width: 12.33%;}
+  .col-s-2 {width: 100%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 100%;}
+  .col-s-6 {width: 100%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .container {
+    width: 100%; 
+    padding: 0; 
+	margin: 0 auto;
+    background-color: #efefef;
+}
+
+body {
+    display: block;
+    margin: 0,auto;
+}
+
+.col-5 {
+    width: 49%; 
+    background-color: white;
+    padding-bottom: -10px;
+    }
+.col-6 {
+    width: 50%;  
+    margin-left: .45em;
+    background-color: white;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+.col-1 {
+    width: 100.33%;
+    background-color: white;
+    margin-top: -20px;
+    padding-bottom: 0px
+    }
+.col-2 {
+    width: 110.00%;
+    padding-left: 0px;
+    padding-right: 70px;
+    margin-top: -20px;
+    padding-bottom: 0px
+}
+.col-3 {
+    width: 102.00%;
+    height: 420px;
+    margin-top: -5px;
+    margin-bottom: 100px;
+    padding-left: 1px;
+    padding-right: 10px;
+    padding-top: -0px;
+    }
+.col-4 {
+    width: 110.00%;
+    padding-left: 0px;
+    padding-right: 68px;
+    margin-top: -57px;
+    padding-bottom: 0px
+}
+.col-5 {
+    width: 49%; 
+    background-color: white;
+    padding-bottom: -10px;
+    }
+.col-6 {
+    width: 50%;  
+    margin-left: .45em;
+    background-color: white;
+    }
+
+.col-7 {
+    width: 90%; background-color: #efefef;
+    margin-left: 36px;}
+
+.col-8 {
+    width: 100%; 
+    background-color: #efefef;
+    }
+}
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+    <div class="row">
+        <div class="col-1 col-s-1">  
+            <div>
+                <img class="img-responsive" style="width: 100%" src="spike35600.jpg">
+            </div>                          
+             <a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a> <a href="#" class="fa fa-linkedin"></a><h1>Hi</h1>
+            <div class="first-txt">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        
+                <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+  </div>
+
+    <div class="row">
+        <div class="col-2 col-s-2 ">
+        <img class="img-fluid" alt="Responsive image" src="email-sign.JPG" >
+        </div>
+    </div>
+
+
+  <div class="row">
+  <div class="col-3 col-s-3 ">
+        <img class="img-responsive" style="width: 100%;" src="Capture.JPG">
+        <div class="second-txt">
+            <h1>Some more generic text</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+  </div>
+  
+</div>
+
+    <div class="row">
+        <div class="col-4 col-s-4 ">
+        <img class="img-fluid" alt="Responsive image" src="email-sign.JPG" >
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-5 col-s-5 ">
+            <img class="img-fluid" alt="Responsive image" src="square-img.JPG" >
+            <h1 class="img-heading">Mobile-geddon</h1>
+                <p class="img-p">This week saw the launch of Google’s new search algorithm to reward those sites that are mobile responsive or at least mobile friendly.So what does this all mean? This post by Yeniffer Padrino explains the basics. And Liam from Starcom MediaVest takes us through 5 reasons we should love Mobilegeddon.</p>
+
+                <a class="hyperlink" href="https://www.linkedin.com/pulse/five-reasons-love-mobilegeddon-liam-brennan">Continue Reading</a>
+    </div>
+
+    <div class="col-6 col-s-6 ">
+            <img  class="img-fluid" alt="Responsive image" src="square-img2.JPG"  >
+                <h1 class="img-heading2">Shopping Trends</h1>
+                    <p class="img-p2">It is only eight weeks until Christmas! This time of year is often a dream for marketers as people begin to embark on the activity of Christmas shopping.It is predicted this year that digital technology is going to play a bigger role than before in how consumers look to approach shopping for the festive season.</p>
+    
+                <a class="hyperlink2" href="https://risnews.com/holiday-2014-shopping-trends-and-predictions">Continue Reading</a>
+        </div>
+    </div>
+  
+    <div class="col-7 col-s-7">
+        <h2>Who are we?</h2>                               
+            <p>We are Spike. A passionate bunch of people who get excited over doing email marketing right. We link your email marketing to your business objectives, creating email with purpose, then take the hassle of execution off your hands leaving you to grow your business</p>
+        
+        <h2>So why are you receiving this email?</h2>
+            <p>You're a Spike client (thank you for that), you signed up for the newsletter somewhere online or Glenn and SHane thougth this would interest you.</p>
+    </div>
+    <div class="row">
+        <div class="col-8 col-s-8">
+                <a href="https://spike.co.nz/about" target="_blank" style="color:#999999; text-decoration:underline;">About</a>| 
+                <a href="https://spike.co.nz/contact" target="_blank" style="color:#999999; text-decoration:underline;">Contact</a> </br>
+                If you do not wish to receive any further emails from us, please <a href="#" style="color:#999999; text-decoration:underline;" target="_blank"  >unsubscribe</a>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
